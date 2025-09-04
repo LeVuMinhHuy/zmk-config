@@ -17,6 +17,11 @@
 #define TRI 4
 #define MOUSE 5
 
+// key-repeat config
+&key_repeat {
+    usage-pages = <HID_USAGE_KEY HID_USAGE_CONSUMER>; // repeat all keys
+};
+
 
 // https://zmk.dev/docs/development/hardware-integration/soft-off-setup?advanced-methods=wakeup&kscan-type=dkscan
 / {
